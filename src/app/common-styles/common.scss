@@ -1,0 +1,81 @@
+.page-panel {
+    padding: 10px;
+    color: #676767 !important;
+}
+
+.page-section-header {
+    width: 99%;
+    text-align: center;
+}
+
+.text-link {
+    color: #437eb0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.full-height {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    color: #676767 !important;
+}
+
+.full-width {
+    width: 100%;
+}
+
+
+.col-head-width-1x {
+    width: 5%;
+}
+
+.col-head-width-2x {
+    width: 10%;
+}
+
+.col-head-width-3x {
+    width: 20%;
+}
+
+.col-head-width-4x {
+    width: 30%;
+}
+
+.postpond {
+    text-align: center;
+    color: red;
+    width: 290px;
+}
+
+marquee {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.postpond-p {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.postpond-p span {
+    width: 290px;
+    text-align: center;
+    color: red;
+}
+
+@media only screen and (max-width: 767px) {
+    .postpond-p {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+    }
+}

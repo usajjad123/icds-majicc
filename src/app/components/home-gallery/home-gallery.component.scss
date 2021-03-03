@@ -1,0 +1,23 @@
+.img-grid {
+    width: 220px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    img {
+        height: 350px;
+        width: 49%;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .img-grid {
+        img {
+            width: 100%;
+        }
+    }
+}
