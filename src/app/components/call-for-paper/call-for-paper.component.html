@@ -10,7 +10,26 @@
       <h2>{{ d.heading }}</h2>
     </div>
     <div class="page-contant">
-      <p *ngIf="d.breif" class="breif">{{ d.breif }}</p>
+      <div *ngIf="d.breif" class="breif">
+        <p *ngFor="let b of d.breif">
+          {{ b }}
+        </p>
+      </div>
+      <h2 *ngIf="d.breif">Research Papers:</h2>
+      <p *ngIf="d.breif">
+        Full papers describing completed or on-going research or development in
+        the field of Computer Science. Papers are to be submitted in pdf format,
+        no more than six pages in length excluding references. Please follow the
+        given IEEE research paper template (Word, Latex) for the the submission.
+        The review process will be double-blind, so authors are requested NOT to
+        provide any names or contact details on the submitted paper.
+      </p>
+      <p *ngIf="d.breif">Submission for following categories are welcome:</p>
+      <h2 *ngIf="d.breif">List of Topics</h2>
+      <p *ngIf="d.breif">
+        Relevant topics for the conference include, but are not limited to, the
+        following areas:
+      </p>
       <div class="programs-ul">
         <div class="container">
           <div class="row">
@@ -31,6 +50,7 @@
       <div class="para">
         <p *ngFor="let p of d.para">{{ p }}</p>
       </div>
+      <a [href]="d.link">{{ d.link }}</a>
     </div>
   </div>
 

@@ -3,12 +3,12 @@ import { IImportantDates } from '../typing/client/important-dates';
 export const MockDataImportantDates: Array<IImportantDates> = [
     {
         subject: 'Submission Deadline',
-        date: '21st April, 2021',
+        date: '17th April, 2021',
         deadlineClose: true
     },
     {
         subject: 'Announcement of Results',
-        date: '21st May, 2021',
+        date: '17th May, 2021',
         deadlineClose: false
     },
     {
